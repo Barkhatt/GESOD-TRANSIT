@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gesod Transit</title>
+	 <link rel="icon" href="logog.png" type="icon">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+	
+		
+		.logo img{
+			bottom: 10px;
+			left:10px;
+			width: 130px;
+			height: 70px;
+			border-radius: 50%;
+			margin-top: 15px;
+			margin-left: 15px;
+			margin-right: 15px;
+			position: absolute;
+			transition: .5s;
+	
+		}
+		
+		.header{
+			box-sizing: border-box;
+			position: fixed;
+			width: 99%;
+			background-color: #000;
+			border-radius: 10px;
+			margin-top: 5px;
+			margin-left: 5px;
+			height: 80px;
+			box-shadow: 0 10px 30px rgba(0,0,0,.3);
+			
+		}
+		ul li{
+			display: inline-flex;
+			margin:0;
+			padding: 10px 90px;
+		}
+		ul li a{
+			text-decoration: none;
+			color: #fff;
+		}
+		ul li a .icon{
+			overflow: hidden;
+			width: 40px;
+			height: 30px;
+			margin: 0 auto 10px;
+		}
+		ul li a .icon .fa{
+			height: 100%;
+			width: 100%;
+			line-height: 30px;
+			font-size: 34px;
+			color: #fa0636;
+			transition:.5s;
+			letter-spacing: 5px;
+			border-right: 1px solid rgba(0,0,0,.2);
+		}
+		ul li a .icon .fa:last-child{
+			color: #fff;
+			border-right: none;
+		}
+		ul li a:hover .icon .fa{
+			transform: translateY(-100%);
+		}
+		ul li a .name:hover{
+			color: #fa0636;
+		}
+    .secondcontainer{
+    	position: absolute;
+    	top: 1600px;
+    	box-sizing:border-box;
+    	background-color: #000;
+    	height: 90px;
+    	width: 99%;
+    	margin-left: 5px;
+    	box-shadow: 0 10px 30px rgba(0,0,0,.3);
+    }
+    .team{
+    	display: flex;
+    	justify-content: space-around;
+    	margin-top: 0;
+    	padding-top: 200px;
+
+    
+    }
+    .user-col1{
+    	flex-basis: 27%;
+    	text-align: center;
+    	cursor: pointer;
+    	box-shadow: 0 10px 30px rgba(0,0,0,.3);
+    	transition: transform 1s;
+
+    }
+    .user-col1 img{
+    	width: 100%;
+    	border-radius: 10px;
+    	
+    }
+    .info{
+    	opacity: 0;
+    	transition: opacity 1s;
+    }
+    .info p{
+    	color: #000;
+    	font-weight: 600;
+    	overflow: hidden;
+    	transition: transform 1s;
+    }
+    .user-col1:hover .info{
+    	opacity: 1;
+    }
+    .user-col1:hover{
+    	transform: translateY(-30%);
+    }
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<ul> 
+			<li>
+				 <div class="logo">
+				<img src="llogo2.png">
+				<img src="llogo2.png">
+			</div>
+		</li>
+			<li>
+				<a href="#">
+					<div class="icon">
+						<i class="fa fa-home" aria-hiddent="true"></i>
+						<i class="fa fa-home" aria-hiddent="true"></i>
+					</div>
+					<div class="name">Home</div>
+				</a>	
+			</li>
+			<li>
+				<a href="#">
+					<div class="icon">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</div>
+					<div class="name">About us</div>
+				</a>
+			</li>
+			<li>
+			<a href="#">
+					<div class="icon">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					</div>
+					<div class="name">Contacts</div>
+				</a>
+			</li>
+			<li>
+			<a href="#">
+					<div class="icon">
+						<i class="fa fa-cogs" aria-hidden="true"></i>
+						<i class="fa fa-cogs" aria-hidden="true"></i>
+					</div>
+					<div class="name">Services</div>
+				</a>
+			</li>
+			<div class="box"></div>
+		</ul>
+
+		</div>
+	
+		<!-- halka waxaa ka bilaabanaya box ka dhaq-dha dhaqaaqaya-->
+		<div class="team">
+			<div class="user-col1">
+				<img src="clearance.png">
+			</div>
+			<div class="info">
+				<h4>Custom Clearance</h4>
+				<p> Air freight</p>
+				<p> See freight</p>
+				<p> Road freight</p>
+			</div>
+			<div class="user-col1">
+				<img src="clearance.png">
+			</div>
+			<div class="info">
+				<h4>Custom Clearance</h4>
+				<p> Air freight</p>
+				<p> See freight</p>
+				<p> Road freight</p>
+			</div>
+			<div class="user-col1">
+				<img src="clearance.png">
+			</div>
+			<div class="info">
+				<h4>Custom Clearance</h4>
+				<p> Air freight</p>
+				<p> See freight</p>
+				<p> Road freight</p>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+		<div class="secondcontainer">
+	<ul>
+		<li>
+			<a href="#">
+				<div class="icon">
+					<i class="fa fa-home" aria-hidden="true"></i>
+					<i class="fa fa-home" aria-hidden="true"></i>
+				</div>
+				<div class="name">Home</div>
+			</a>
+		</li>
+	</ul>
+	</div>
+
+</body>
+
+</html>
